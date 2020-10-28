@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  font-size: 60%;
+}
+
+#root {
+  height: 100vh;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  background: #fff;
+  height: 100vh;
+}
+
+body, input, button, textarea {
+  font: 500 1.6rem Roboto;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  background: none;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
