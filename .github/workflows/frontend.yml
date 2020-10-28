@@ -32,12 +32,5 @@ jobs:
       run: yarn build
     
     - name: Copy files
-      run: sudo cp -r build/* /var/www/html
-      
-    - name: Stop pm2
-      run: pm2 stop frontend
-      if: ${{failure()}}
-    
-    - name: Start pm2
-      run: pm2 start frontend dist/server.js
+      run: sudo cp -R build/* /var/www/html
 
