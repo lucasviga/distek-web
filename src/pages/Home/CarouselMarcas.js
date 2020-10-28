@@ -73,33 +73,36 @@ export default function CarouselMarcas() {
   // }, []);
 
   return(
-    <Marcas>
-      <h1>Oferecemos as melhores marcas do mercado</h1>
-      <br /><br />
+    <>
+      <a name="marcas"></a>
+      <Marcas>
+        <h1>Oferecemos as melhores marcas do mercado</h1>
+        <br /><br />
 
-      <Carousel itemsToScroll={
-        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-          navigator.userAgent
-        )
-          ? 1
-          : 2
-      }
+        <Carousel itemsToScroll={
+          /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+            navigator.userAgent
+          )
+            ? 1
+            : 2
+        }
 
-      itemsToShow={
-        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-          navigator.userAgent
-        )
-          ? 1
-          : 4
-      }
-      >
-        {state.items.map(item =>
-          <div key={item.id}>
-            <img width="200" src={item.url} alt={item.title} />
-          </div>
-        )}
-      </Carousel>
-    </Marcas>
+        itemsToShow={
+          /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+            navigator.userAgent
+          )
+            ? 1
+            : 4
+        }
+        >
+          {state.items.map(item =>
+            <div key={item.id}>
+              <img width="200" src={item.url} alt={item.title} />
+            </div>
+          )}
+        </Carousel>
+      </Marcas>
+    </>
   );
 }
 

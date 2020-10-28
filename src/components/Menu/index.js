@@ -14,15 +14,15 @@ function Menu(){
           <nav>
             <ul>
               <li>
-                <a href="/residencial">Produtos</a>
+                <a href="#produtos">Produtos</a>
               </li>
 
               <li>
-                <a href="/empresarial">Marcas</a>
+                <a href="#marcas">Marcas</a>
               </li>
 
               <li>
-                <a href="/onde-estamos">Contato</a>
+                <a href="#contato">Contato</a>
               </li>
             </ul>
           </nav>

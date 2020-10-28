@@ -144,6 +144,7 @@ export const Produtos = styled.section`
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  height: 100%;
 
   padding: 5rem;
   margin: 0 auto;
