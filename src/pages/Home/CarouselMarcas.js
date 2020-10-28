@@ -1,3 +1,4 @@
+// import { useState, useEffect } from 'react';
 import Carousel from 'react-elastic-carousel';
 
 import { Marcas } from './styles';
@@ -56,12 +57,42 @@ export default function CarouselMarcas() {
     ]
   }
 
+  // const [widthScreen, setWidthScreen] = useState(window.innerWidth);
+
+  // const handleResize = (e) => {
+  //   setWidthScreen(window.innerWidth);
+  //  };
+
+  // useEffect(() => {
+  //   function getWindow() {
+  //     const width = window.addEventListener("resize", handleResize);
+  //     setWidthScreen(width);
+  //   }
+
+  //   getWindow();
+  // }, []);
+
   return(
     <Marcas>
       <h1>Oferecemos as melhores marcas do mercado</h1>
       <br /><br />
 
-      <Carousel itemsToScroll={2} itemsToShow={4}>
+      <Carousel itemsToScroll={
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent
+        )
+          ? 1
+          : 2
+      }
+
+      itemsToShow={
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent
+        )
+          ? 1
+          : 4
+      }
+      >
         {state.items.map(item =>
           <div key={item.id}>
             <img width="200" src={item.url} alt={item.title} />

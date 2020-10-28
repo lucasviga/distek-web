@@ -13,6 +13,10 @@ export const Container = styled.header`
   /* position: fixed; */
   width: 100%;
 
+  @media (max-width: 56.25em) {
+    display: none;
+  }
+
   p {
     font-size: 1.2rem;
   }

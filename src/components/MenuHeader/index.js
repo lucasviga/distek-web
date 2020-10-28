@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
+import { FaPhoneAlt } from 'react-icons/fa';
 import { Container } from './styles';
 
 function MenuHeader() {

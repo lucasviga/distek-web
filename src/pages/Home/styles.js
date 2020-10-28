@@ -14,12 +14,23 @@ export const Marcas = styled.section`
   align-items: center;
   justify-content: center;
 
+
   h1 {
     width: 60%;
     color: #0A1D3D;
     font-size: 6rem;
     text-align: center;
     font-weight: 400;
+
+    @media (max-width: 37.5em) {
+      font-size: 2.8rem;
+      width: 100%;
+    }
+
+    @media (max-width: 56.25em) {
+      font-size: 4rem;
+      width: 100%;
+    }
   }
 `;
 
@@ -50,6 +61,14 @@ export const BannerContato = styled.section`
       font-size: 5rem;
       color: #FFF;
       margin: 3rem;
+
+      @media (max-width: 37.5em) {
+        font-size: 2.5rem;
+      }
+
+      @media (max-width: 56.25em) {
+        font-size: 3.5rem;
+      }
     }
 
     &__btn-box {
@@ -57,6 +76,17 @@ export const BannerContato = styled.section`
       flex-direction: row;
       align-items: center;
       justify-content: space-around;
+
+      @media (max-width: 37.5em) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        > a {
+          margin-bottom: 2.5rem;
+        }
+      }
     }
   }
 
@@ -66,6 +96,14 @@ export const BannerContato = styled.section`
       text-align: center;
       font-size: 5rem;
       margin: 3rem;
+
+      @media (max-width: 37.5em) {
+        font-size: 2.5rem;
+      }
+
+      @media (max-width: 56.25em) {
+        font-size: 3.5rem;
+      }
     }
   }
 
@@ -105,10 +143,30 @@ export const Produtos = styled.section`
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  width: 1100px;
+  width: 100%;
 
   padding: 5rem;
   margin: 0 auto;
+
+  @media (max-width: 37.5em) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 56.25em) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+  }
+
+  @media (min-width: 112.5em) {
+    width: 1100px;
+  }
 
   .bg-produto {
     background-image: linear-gradient(
@@ -124,6 +182,11 @@ export const Produtos = styled.section`
 
   .bg-produto:not(:last-child) {
     margin-right: 5rem;
+
+    @media (max-width: 56.25em) {
+      margin-right: unset;
+      margin-bottom: 5rem;
+    }
   }
 
   .txt-produto {
@@ -142,6 +205,10 @@ export const Produtos = styled.section`
       position: absolute;
       bottom: 0;
       margin: 5rem;
+
+      @media (max-width: 56.25em) {
+        margin: 2.5rem;
+      }
     }
   }
 `;

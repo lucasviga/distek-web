@@ -13,8 +13,8 @@ export const Container = styled.header`
     background: #FFF;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 
-    @include respond(tab-port) {
-      display:none;
+    @media (max-width: 56.25em) {
+      display: none;
     }
 
     &__content {

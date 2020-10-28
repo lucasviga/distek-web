@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import logo from '../../assets/img/logo-distek.svg';
 import { Container } from './styles';
