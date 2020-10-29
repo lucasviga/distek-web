@@ -27,11 +27,11 @@ jobs:
                     
     - name: Install dependecies
       run: yarn install
-      env:
-        CI: ''
       
     - name: Build project
       run: yarn build
+      env:
+        CI: ''
     
     - name: Copy files
       run: sudo cp -R build/* /var/www/html
