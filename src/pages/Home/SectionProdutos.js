@@ -9,7 +9,7 @@ export default function SectionProdutos() {
         <div className="bg-produto">
           <div className="txt-produto">
             <div className="txt-produto__footer">
-              <p>Title# Product</p>
+              <p>Title#01 Product</p>
               <Button title="tel:923199-1001">
                 <span>Falar com atendente</span>
               </Button>
