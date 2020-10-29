@@ -34,5 +34,5 @@ jobs:
         CI: ''
     
     - name: Copy files
-      run: sudo -t cp -R build/* /var/www/html
+      run: cp -R build/* /var/www/html
 
