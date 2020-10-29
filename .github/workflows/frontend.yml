@@ -26,10 +26,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
         
     - name: Install dependecies
-      run: npm install
+      run: yarn install
       
     - name: Build project
-      run: npm run build
+      run: yarn build
     
     - name: Copy files
       run: sudo cp -R build/* /var/www/html
