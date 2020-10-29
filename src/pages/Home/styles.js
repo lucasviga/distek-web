@@ -60,7 +60,7 @@ export const BannerContato = styled.section`
     > h1 {
       font-size: 5rem;
       color: #FFF;
-      margin: 3rem;
+      padding: 5rem;
 
       @media (max-width: 37.5em) {
         font-size: 2.5rem;

@@ -74,7 +74,7 @@ export default function CarouselMarcas() {
 
   return(
     <>
-      <a name="marcas"></a>
+      <a href="!#" name="marcas"><div/></a>
       <Marcas>
         <h1>Oferecemos as melhores marcas do mercado</h1>
         <br /><br />

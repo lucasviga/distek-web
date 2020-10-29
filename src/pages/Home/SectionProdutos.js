@@ -4,14 +4,14 @@ import { Produtos } from './styles';
 export default function SectionProdutos() {
   return(
     <>
-      <a name="produtos"></a>
+      <a href="!#" name="produtos"><div/></a>
       <Produtos>
         <div className="bg-produto">
           <div className="txt-produto">
             <div className="txt-produto__footer">
               <p>Title Product</p>
-              <Button title="0800 800 800">
-                <span>Falar com especialista</span>
+              <Button title="tel:923199-1001">
+                <span>Falar com atendente</span>
               </Button>
             </div>
           </div>
@@ -21,8 +21,8 @@ export default function SectionProdutos() {
           <div className="txt-produto">
             <div className="txt-produto__footer">
               <p>Title Product</p>
-              <Button title="0800 800 800">
-                <span>Falar com especialista</span>
+              <Button title="tel:923199-1001">
+                <span>Falar com atendente</span>
               </Button>
             </div>
           </div>

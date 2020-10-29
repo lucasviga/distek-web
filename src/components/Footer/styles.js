@@ -20,12 +20,29 @@ export const Container = styled.footer`
       margin-bottom: 1rem;
     }
 
-    > p {
+    a, p {
       font-weight: 400;
+      color: #FFF;
+      transition: opacity .5s ease-out;
     }
 
-    > p:not(:last-child) {
+    a > p:hover {
+      opacity: 0.6;
+    }
+
+    a > p {
       margin-bottom: 0.5rem;
     }
+  }
+`;
+
+export const Direitos = styled.div`
+  background-color: #58187D;
+  padding: 2rem 5rem;
+
+  p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
   }
 `;

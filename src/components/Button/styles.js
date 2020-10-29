@@ -8,6 +8,11 @@ export const Container = styled.a`
   text-align: center;
   transition: opacity 0.6s ease-out;
 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
   &:hover {
     opacity: 0.6;
   }

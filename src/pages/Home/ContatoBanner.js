@@ -1,4 +1,5 @@
 import { FaFacebookF, FaInstagram, FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
+import { MdMail } from 'react-icons/md';
 
 import Button from '../../components/Button';
 import { BannerContato } from './styles';
@@ -6,7 +7,7 @@ import { BannerContato } from './styles';
 export default function ContatoBanner() {
   return(
     <>
-      <a name="contato"></a>
+      <a href="!#" name="contato"><div/></a>
       <BannerContato>
         <div className='banner-contato'>
           <h1>Entre em contato com a nossa equipe</h1>
@@ -16,13 +17,13 @@ export default function ContatoBanner() {
               <FaPhoneAlt color="#fff" />
               <span>(92) 3199-1001</span>
             </Button>
+            <Button title="mailto:comercial@distek.com.br">
+              <MdMail color="#fff" />
+              <span>comercial@distek.com.br</span>
+            </Button>
             <Button title="https://api.whatsapp.com/send?phone=559231991001">
               <FaWhatsapp color="#fff" />
               <span>(92) 3199-1001</span>
-            </Button>
-            <Button title="mailto:comercial@distek.com.br">
-              <FaPhoneAlt color="#fff" />
-              <span>comercial@distek.com.br</span>
             </Button>
           </div>
         </div>
