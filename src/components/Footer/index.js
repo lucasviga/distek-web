@@ -6,16 +6,15 @@ export default function Footer() {
       <div className="info-content">
         <h1>Endereço</h1>
         <p>
-          Av. Margarita, 2660 - Nova Cidade<br />
-          69097-305, Manaus/Am
+          Av. Camapuã, 2486B - Conj. Amazonino Mendes<br />
+          Novo Aleixo, CEP: 69099-028
         </p>
       </div>
 
       <div className="info-content">
         <h1>Entre em Contato</h1>
-        <p>email@email.com.br</p>
-        <p>0800 800 800</p>
-        <p>(92) 9 9999-9999</p>
+        <p>comercial@distek.com.br</p>
+        <p>(92) 3199-1001</p>
       </div>
 
       <div className="info-content">

@@ -4,19 +4,11 @@ import { Container } from './styles';
 function MenuHeader() {
   return(
     <Container>
-      <p>Horário de Funcionamento: Segunda à Sexta: 09h às 17:30h</p>
+      <p>Horário de Funcionamento: Segunda à Sexta: 08h às 17:30h</p>
 
       <div className="info-contato">
-        <a href="https://facebook.com">
-          <FaPhoneAlt color="#0A1D3D" />0800 800 800
-        </a>
-
-        <a href="https://facebook.com">
-          <FaPhoneAlt color="#0A1D3D" />0800 800 800
-        </a>
-
-        <a href="https://facebook.com">
-          <FaPhoneAlt color="#0A1D3D" />0800 800 800
+        <a href="tel:923199-1001">
+          <FaPhoneAlt color="#0A1D3D" />(92) 3199-1001
         </a>
       </div>
     </Container>
