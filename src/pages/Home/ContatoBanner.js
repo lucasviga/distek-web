@@ -32,7 +32,7 @@ export default function ContatoBanner() {
           <h1>Siga nossas redes</h1>
 
           <div className='redes-sociais'>
-            <a href="https://facebook.com" target="_blank" without rel="noreferrer">
+            <a href="https://facebook.com/distek.com.br" target="_blank" without rel="noreferrer">
               <div className="redes-sociais__circle">
                 <FaFacebookF size={22} />
               </div>

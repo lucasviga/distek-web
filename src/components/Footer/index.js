@@ -24,8 +24,7 @@ export default function Footer() {
 
         <div className="info-content">
           <h1>Distek</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa
-          </p>
+          <p>Distribuidora de Tecnologia.</p>
         </div>
       </Container>
       <Direitos>
